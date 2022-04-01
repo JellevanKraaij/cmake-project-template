@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.23.0)
 project(hello-world)
 set (SRCS src/main.c)
 set (EXEC_NAME hello-world)
+set (CMAKE_C_COMPILER gcc)
 set (CMAKE_C_FLAGS "-Wall -Werror -Wextra")
 set (CMAKE_EXPORT_COMPILE_COMMANDS ON) #vscode include path checking
 
